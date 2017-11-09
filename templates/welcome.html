@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>AWS Application</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../static/stylesheets/style.css">
+
+  </head>
+
+  <body>
+
+
+          <h1> <span class = "blue">RDS APPLICATION USING MEMCACHE</span> </h1>
+          <ul>
+      <li><a href="/rquery/">RANDOM QUERIES</a></li>
+      <li><a href="/squery/">Specific Queries</a></li>
+              <li><a href="/rcquery/">Random Queries with Memcache</a></li>
+              <li><a href="/scquery/">Specific Queries with Memcache</a></li>
+          </ul>
+
+          <p> total time for random queries: {{ r_time }}</p>
+          <p>total time for specific queries: {{ s_time }}</p>
+
+  </body>
+</html>
